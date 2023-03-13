@@ -20,18 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#ifndef LBT_SERIAL_H_
-#define LBT_SERIAL_H_
-
-#include "comm/lbtret.h"
+#ifndef COMM_CONFIG_H_
+#define COMM_CONFIG_H_
 
 
-LBT_RET usartSendData(const char* buf, short len){
-    if(LBT_NULLPTR_REF){
-        return LBT_NULLPTR_REF;
-    }
-    return LBT_OK;
-}
 
-
-#endif //! LBT_SERIAL_H_
+#endif //! COMM_CONFIG_H_
