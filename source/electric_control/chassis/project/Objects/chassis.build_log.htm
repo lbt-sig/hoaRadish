@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: aa aa, aa, LIC=EPPJJ-UHQKK-JN5A8-36P9H-SM430-IN9N0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.28.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.12
+Assembler:       Armasm.exe V6.12
+Linker/Locator:  ArmLink.exe V6.12
+Library Manager: ArmAr.exe V6.12
+Hex Converter:   FromElf.exe V6.12
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.162.16.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\github\hoaRadish\source\electric_control\chassis\project\chassis.uvprojx
+Project File Date:  03/15/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.12', folder: 'D:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'LBT_Chassis'
+../libs/STLib/src/stm32f4xx_flash.c(74): warning: In file included from...
+../3dparty/FreeRTOS/include\FreeRTOS.h(105): warning: In file included from...
+../3dparty/FreeRTOS/include/portable.h(122): error: "Invalid portBYTE_ALIGNMENT definition"
+        #error "Invalid portBYTE_ALIGNMENT definition"
+         ^
+../3dparty/FreeRTOS/include/portable.h(144): error: unknown type name 'StackType_t'
+        StackType_t *pxPortInitialiseStack( StackType_t *pxTopOfStack, TaskFunction_t pxCode, void *pvParameters ) PRIVILEGED_FUNCTION;
+        ^
+../3dparty/FreeRTOS/include/portable.h(144): error: unknown type name 'StackType_t'
+        StackType_t *pxPortInitialiseStack( StackType_t *pxTopOfStack, TaskFunction_t pxCode, void *pvParameters ) PRIVILEGED_FUNCTION;
+                                            ^
+../3dparty/FreeRTOS/include/portable.h(181): error: unknown type name 'BaseType_t'
+BaseType_t xPortStartScheduler( void ) PRIVILEGED_FUNCTION;
+^
+../libs/STLib/src/stm32f4xx_flash.c(74): warning: In file included from...
+../3dparty/FreeRTOS/include\FreeRTOS.h(881): error: unknown type name 'TickType_t'
+        TickType_t xDummy1;
+        ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(889): error: unknown type name 'TickType_t'
+        TickType_t xDummy1;
+        ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(897): error: unknown type name 'UBaseType_t'
+        UBaseType_t uxDummy1;
+        ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(922): error: unknown type name 'UBaseType_t'
+        UBaseType_t                     uxDummy5;
+        ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(932): error: unknown type name 'UBaseType_t'
+                UBaseType_t             uxDummy10[ 2 ];
+                ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(935): error: unknown type name 'UBaseType_t'
+                UBaseType_t             uxDummy12[ 2 ];
+                ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(980): error: unknown type name 'UBaseType_t'
+                UBaseType_t uxDummy2;
+                ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(984): error: unknown type name 'UBaseType_t'
+        UBaseType_t uxDummy4[ 3 ];
+        ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(996): error: unknown type name 'UBaseType_t'
+                UBaseType_t uxDummy8;
+                ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(1019): error: unknown type name 'TickType_t'
+        TickType_t xDummy1;
+        ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(1023): error: unknown type name 'UBaseType_t'
+                UBaseType_t uxDummy3;
+                ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(1050): error: unknown type name 'TickType_t'
+        TickType_t                      xDummy3;
+        ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(1051): error: unknown type name 'UBaseType_t'
+        UBaseType_t                     uxDummy4;
+        ^
+../3dparty/FreeRTOS/include\FreeRTOS.h(1054): error: unknown type name 'UBaseType_t'
+                UBaseType_t             uxDummy6;
+                ^
+../libs/STLib/src/stm32f4xx_flash.c(75): warning: In file included from...
+../3dparty/FreeRTOS/include\timers.h(80): warning: In file included from...
+../3dparty/FreeRTOS/include/task.h(78): warning: In file included from...
+../3dparty/FreeRTOS/include/list.h(104): error: 'portmacro.h' file not found
+#include "portmacro.h"
+         ^~~~~~~~~~~~~
+19 errors generated.
+compiling stm32f4xx_flash.c...
+".\Objects\chassis.axf" - 19 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.8.pack
+                Keil.STM32F4xx_DFP.1.0.8
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_LBT_Chassis
+  D:\Users\ULis\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
