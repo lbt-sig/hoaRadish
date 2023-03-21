@@ -650,15 +650,6 @@ I (..\libs\STLib\inc\stm32f4xx_dac.h)(0x6411D136)
 I (..\libs\STLib\inc\stm32f4xx_dcmi.h)(0x6411D136)
 I (..\libs\STLib\inc\stm32f4xx_fsmc.h)(0x6411D136)
 F (..\libs\STLib\src\stm32f4xx_flash.c)(0x6411DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../libs/STLib/inc -I ../User -I ../3dparty/FreeRTOS/include-I./RTE/_LBT_Chassis-ID:/Users/ULis/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/1.0.8/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DUSE_MAIN_CTRL_2020-o ./objects/stm32f4xx_flash.o -MD)
-I (..\libs\STLib\inc\stm32f4xx_flash.h)(0x6411D136)
-I (..\libs\STLib\inc\stm32f4xx.h)(0x6411D136)
-I (..\libs\STLib\inc\core_cm4.h)(0x6411D136)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\libs\STLib\inc\cmsis_version.h)(0x6411D136)
-I (..\libs\STLib\inc\cmsis_compiler.h)(0x6411D136)
-I (..\libs\STLib\inc\cmsis_armcc.h)(0x6411D136)
-I (..\libs\STLib\inc\mpu_armv7.h)(0x6411D136)
-I (..\libs\STLib\inc\system_stm32f4xx.h)(0x6411D136)
 F (..\libs\STLib\src\stm32f4xx_flash_ramfunc.c)(0x6411D136)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../libs/STLib/inc -I ../User -I ../3dparty/FreeRTOS/include-I./RTE/_LBT_Chassis-ID:/Users/ULis/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/1.0.8/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DUSE_MAIN_CTRL_2020-o ./objects/stm32f4xx_flash_ramfunc.o -MD)
 I (..\libs\STLib\inc\stm32f4xx_flash_ramfunc.h)(0x6411D136)
 I (..\libs\STLib\inc\stm32f4xx.h)(0x6411D136)
