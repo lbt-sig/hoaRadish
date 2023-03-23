@@ -31,4 +31,9 @@
 
 ##  左侧支撑
 
-![](../../../res/left_sldasm.png)
+![](../../res/left_sldasm.png)
+
+## 仿真
+仿真软件：
+- MATLAB 2018a simulink
+- Gazebo
