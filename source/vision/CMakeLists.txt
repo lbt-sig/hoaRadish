@@ -46,19 +46,19 @@ set(CMAKE_BUILD_TYPE "Debug")
 
 # 头文件目录
 include_directories(./)
-include_directories(./incclue)
+include_directories(./include)
 
 # 源代码目录
 aux_source_directory(./src SRC_DIR)
 
 # add the executable
 # 添加一个可执行文件
-#add_executable(test ${TEST_DIR} )
-#add_library(hoaRadish STATIC ${SRC_DIR} )
+# add_executable(test ${TEST_DIR} )
+add_library(hoaRadish STATIC ${SRC_DIR} )
 
 
 #target_include_directories(raserver PUBLIC ${PROJECT_SOURCE_DIR}/raserver/inc/)
-target_link_libraries(test hoaRadish)
+# target_link_libraries(test hoaRadish)
 
 IF(UNIX OR APPLE)
 #    target_link_libraries(test pthread)
