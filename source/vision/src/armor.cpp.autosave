@@ -9,6 +9,7 @@ const Size kGaussianBlueSize = Size(5, 5);
 int recognition(){
     VideoCapture video;
     video.open("/home/lbt-vision/demo/test.mp4");
+    
     Mat frame,channels[3],binary,Gaussian;
     vector<vector<Point>> contours;
     vector<Vec4i> hierarchy;
