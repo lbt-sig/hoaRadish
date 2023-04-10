@@ -20,17 +20,32 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-// C/C++ compatible writing, please do not define C++ related codes in this file.
-#ifndef ELEC_COMMON_CRC_H_
-#define ELEC_COMMON_CRC_H_
+#ifndef ELEC_COMMON_HLOG_H_
+#define ELEC_COMMON_HLOG_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+/// @brief Log Levels.
+typedef enum {
+  DEBUG_ERROR  = 1,
+  DEBUG_WARN   = 2,
+  DEBUG_INFO   = 4,
+  DEBUG_DEBUG  = 8,
+  DEBUG_TRACE  = 16,
+  DEBUG_FILE   = 64,
+} E_LogLevel;
+
+
+void lbtPrintLog(const char *flags, E_LogLevel level, const char *format, ...)
+#ifdef __GNUC__
+    __attribute__((format(printf, 3, 4)))
+#endif
+    ;
 
 
 
 #ifdef __cplusplus
 }
 #endif
-
-#endif //!ELEC_COMMON_CRC_H_
+#endif //!ELEC_COMMON_HLOG_H_
