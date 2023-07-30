@@ -32,6 +32,7 @@ extern "C" {
 use namespace HEle;
 
 class Motor8010 : public Motor {
+    HOA_RET init();
     HOA_RET run();
 }
 

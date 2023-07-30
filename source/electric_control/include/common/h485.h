@@ -1,3 +1,6 @@
+// MIT License
+
+// Copyright (c) 2023 LBT_sig
 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -18,36 +21,16 @@
 // SOFTWARE.
 
 // C/C++ compatible writing, please do not define C++ related codes in this file.
-
-#ifndef USER_MOTOR_INC_MOTOR_H_
-#define USER_MOTOR_INC_MOTOR_H_
-
-#include "common/hret.h"
-
-// Write C/C++ general-purpose programs.
+#ifndef ELEC_COMMON_H485_H_
+#define ELEC_COMMON_H485_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-// use namespace "hoaRadish electric".
-namespace HEle {
 
-
-/*
- * Motor is an abstract class that provides the basic operation of the motor。
- */
-class Motor {
-    Motor(){}
-    virtual ~Motor() = 0;
-
-    virtual HOA_RET init();
-    virtual HOA_RET run() = 0;
-
-};
-
-}
 
 #ifdef __cplusplus
 }
 #endif
-#endif //! USER_MOTOR_INC_MOTOR_H_
+
+#endif //!ELEC_COMMON_H485_H_

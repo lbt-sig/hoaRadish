@@ -21,5 +21,13 @@
 
 #include "Motor_8010.h"
 
+HOA_RET Motor8010::init() {
+    return HOA_OK;
+}
+
+HOA_RET Motor8010::run() {
+    return HOA_OK;
+}
+
 
 
