@@ -13,7 +13,6 @@ The current development version is v0.0.0.1. The code is only for personal and o
 | [LBT-编码规范](doc/develop/LBT-Coding-Specification_zhCN.md)  
 [Bill of Materials](doc/hardware/LBT_hoar_v0.0.0.0_hardware_list_zh_CN.md) | 
 [物料清单](doc/hardware/LBT_hoar_v0.0.0.0_hardware_list_zh_CN.md)  
-[LBT SimpleFoc Hardware Design](doc/Boards/LBT_SimpleFoc/LBT_SimpleFoc_hardware_design_en.md) | [LBT SimpleFoc 驱动硬件设计](doc/Boards/LBT_SimpleFoc/LBT_SimpleFoc_hardware_design_zh_CN.md)
 
 
 ##  machine design 
@@ -26,4 +25,7 @@ please see those doc:
 
 
 ##  Development Plan 
-v0.0.0.0 - 2023.04 :  Complete HT-6010 foc driver design.
+v0.0.0.0 - 2023.04 :  Complete HT-6010 foc driver design.  
+
+## 赞助  
+- Unitree
