@@ -19,35 +19,21 @@
 
 // C/C++ compatible writing, please do not define C++ related codes in this file.
 
-#ifndef USER_MOTOR_INC_MOTOR_H_
-#define USER_MOTOR_INC_MOTOR_H_
-
-#include "common/hret.h"
+#ifndef USER_CHASSIS_CONFIG_H_
+#define USER_CHASSIS_CONFIG_H_
 
 // Write C/C++ general-purpose programs.
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-// use namespace "hoaRadish electric".
-namespace HEle {
+#ifndef MOTOR_8010
+#define MOTOR_8010 1
+#endif
 
 
-/*
- * Motor is an abstract class that provides the basic operation of the motor。
- */
-class Motor {
-    Motor(){}
-    virtual ~Motor() = 0;
-
-    virtual HOA_RET init();
-    virtual HOA_RET run() = 0;
-
-};
-
-}
 
 #ifdef __cplusplus
 }
 #endif
-#endif //! USER_MOTOR_INC_MOTOR_H_
+#endif //! USER_CHASSIS_CONFIG_H_
