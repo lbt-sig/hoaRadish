@@ -24,5 +24,4 @@
 #define COMM_CONFIG_H_
 
 
-
 #endif //! COMM_CONFIG_H_

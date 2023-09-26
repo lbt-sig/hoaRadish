@@ -20,44 +20,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-// Some Algorithms.
-// 1.RBtree.
-// 2.Btree.
-// 3.AVLtree.
-// 4.KDtree.
+#ifndef COMM_V_TYPE_H_
+#define COMM_V_TYPE_H_
 
-#include "comm/v_type.h"
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-typedef vint (*RBtreeCmpFn)(void* a, void* b);
-
-// Node Color.
-enum Color {
-    RED   = 0,
-    BLACK = 1,
-};
-
-// define rbtree node.
-struct RBtreeNode
-{
-    RBtreeNode* left_;
-    RBtreeNode* right_;
-    RBtreeNode* parent_;
-    Color       color_;
-};
-
-struct RBtree 
-{
-    RBtreeCmpFn* cmp_;
-    RBtreeNode *root_;
-     
-};
-
-#ifdef __cplusplus
-}
-#endif
+typedef char vint1;
+typedef short vint2;
+typedef int vint;
 
 
+#endif //!COMM_V_TYPE_H_
