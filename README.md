@@ -17,15 +17,18 @@ The current development version is v0.0.0.1. The code is only for personal and o
 
 ##  machine design 
 please see those doc:  
-[Mechanical structure design of site based on HT-6010](doc/machinery/Motor/HT6010/README.md) | [基于HT-6010的底盘机械结构设计](doc/machinery/Motor/HT6010/README_zh_CN.md)
+[Mechanical structure design of site based on Unitree-8010](doc/machinery/Motor/HT6010/README.md) | [基于Unitree-8010的底盘机械结构设计](doc/machinery/Motor/HT6010/README_zh_CN.md)
 
 
 ## Electric control
 [Electric Control design document](doc/develop/electric_ctrl/electric_ctrl_design_doc_zh_CN.md) | [电控设计文档](doc/develop/electric_ctrl/electric_ctrl_design_doc_zh_CN.md)
 
+## Vision
 
+## Dependent
+- OpenCV 3
+- 
 ##  Development Plan 
-v0.0.0.0 - 2023.04 :  Complete HT-6010 foc driver design.  
 
-## 赞助  
+## Sponsor  
 - Unitree
