@@ -32,29 +32,7 @@
 extern "C" {
 #endif
 
-typedef vint (*RBtreeCmpFn)(void* a, void* b);
 
-// Node Color.
-enum Color {
-    RED   = 0,
-    BLACK = 1,
-};
-
-// define rbtree node.
-struct RBtreeNode
-{
-    RBtreeNode* left_;
-    RBtreeNode* right_;
-    RBtreeNode* parent_;
-    Color       color_;
-};
-
-struct RBtree 
-{
-    RBtreeCmpFn* cmp_;
-    RBtreeNode *root_;
-     
-};
 
 #ifdef __cplusplus
 }
