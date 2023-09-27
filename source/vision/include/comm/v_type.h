@@ -23,9 +23,9 @@
 #ifndef COMM_V_TYPE_H_
 #define COMM_V_TYPE_H_
 
-typedef char vint1;
-typedef short vint2;
-typedef int vint;
-
+typedef char vint8;
+typedef short vint16;
+typedef int vint32;
+typedef signed long int vint64;
 
 #endif //!COMM_V_TYPE_H_

@@ -20,12 +20,29 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-// Define Some Return Code.
+#include "config.h"
 
-enum LBT_RET{
-    LBT_OK = 0,      ///< No Error.
-    LBT_NULLPTR_REF, ///< reference a null pointer.
+#ifndef COMM_LBTSTD_H_
+#define COMM_LBTSTD_H_
 
-    /*.......*/ 
-    LBT_ERROR,
-};
+//  For regular operating systems.
+#if UNIX || __APPLE__ || BSD || LINUX || WINDOWS
+#include <assert.h>
+#include <stdlib.h>
+
+#define lbt_assert assert
+
+inline void* 
+lbt_malloc(size_t size){
+    return malloc(size);
+}
+
+inline void	 
+lbt_free(void * p){
+    free(p);
+}
+
+#endif
+
+#endif //!COMM_LBTSTD_H_
+

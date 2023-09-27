@@ -23,7 +23,6 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True) 
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED True)
-MESSAGE("aaa : ${PROJECT_SOURCE_DIR}")
 set(HOA_SUPPORT_DIR "${PROJECT_SOURCE_DIR}/cmake")
 set(HOA_CONTRIB_DIR "${PROJECT_SOURCE_DIR}/contrib")
 
@@ -32,17 +31,25 @@ set(CMAKE_BUILD_TYPE "Debug")
 #Macros
 include_directories(./)
 include_directories(./include)
+include_directories(../../include/common)
 
+aux_source_directory(./ MAIN_DIR)
 aux_source_directory(./src SRC_DIR)
+aux_source_directory(./src/util UTIL_DIR)
 
-# add the executable
-add_library(binoculars STATIC ${SRC_DIR} )
+# add the library.
+add_library(binoculars STATIC ${SRC_DIR} ${UTIL_DIR})
+
+# add the executable.
+# add_executable(ebinoculars ${MAIN_DIR})
 
 
 # auto download deps.
 # opencv 3.4.5.
-add_subdirectory(contrib)
+# add_subdirectory(contrib)
 
+# build test project.
+add_subdirectory(test)
 IF(UNIX OR APPLE)
 #    target_link_libraries(test pthread)
 ENDIF ()
