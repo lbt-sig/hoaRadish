@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../include/common/hlog.h
+
+../../../include/common/lbtret.h
+
+../include/comm/config.h
+
+../include/comm/lbtstd.h
+config.h
+../include/comm/config.h
+assert.h
+-
+stdlib.h
+-
+
+../include/comm/v_type.h
+
+../include/util/rbtree.h
+comm/v_type.h
+../include/util/comm/v_type.h
+
+/Users/ulis/Documents/Code/hoaRadish/source/vision/src/armor.cpp
+
+/Users/ulis/Documents/Code/hoaRadish/source/vision/src/util/rbtree.cpp
+assert.h
+-
+hlog.h
+/Users/ulis/Documents/Code/hoaRadish/source/vision/src/util/hlog.h
+lbtret.h
+/Users/ulis/Documents/Code/hoaRadish/source/vision/src/util/lbtret.h
+util/rbtree.h
+/Users/ulis/Documents/Code/hoaRadish/source/vision/src/util/util/rbtree.h
+comm/lbtstd.h
+/Users/ulis/Documents/Code/hoaRadish/source/vision/src/util/comm/lbtstd.h
+
