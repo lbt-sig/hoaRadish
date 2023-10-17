@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/open_off.svg</file>
+        <file>img/open_on.svg</file>
+        <file>img/right.png</file>
+        <file>img/left.png</file>
+        <file>img/pid.png</file>
+        <file>img/serial.png</file>
+        <file>img/logo.png</file>
+        <file>img/background.png</file>
+        <file>img/close_hover.png</file>
+        <file>img/close_normal.png</file>
+        <file>img/lock.png</file>
+    </qresource>
+</RCC>
