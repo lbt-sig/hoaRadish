@@ -5,17 +5,17 @@
     <img width="800" src="doc/res/front.png">
 </p>
 
-## explain
+## Explain
 The current development version is v0.0.0.1. The code is only for personal and open source enthusiasts to learn. Commercial use is prohibited, otherwise all consequences will be borne by yourself.
 
 ## Documents  
-[LBT-Coding-Specification](doc/develop/LBT-Coding-Specification_zhCN.md)
-| [LBT-编码规范](doc/develop/LBT-Coding-Specification_zhCN.md)  
+[LBTsig-Coding-Specification](doc/develop/LBT-Coding-Specification_zhCN.md)
+| [LBTsig-编码规范](doc/develop/LBT-Coding-Specification_zhCN.md)  
 [Bill of Materials](doc/hardware/LBT_hoar_v0.0.0.0_hardware_list_zh_CN.md) | 
 [物料清单](doc/hardware/LBT_hoar_v0.0.0.0_hardware_list_zh_CN.md)  
 
 
-##  machine design 
+##  Machine design 
 please see those doc:  
 [Mechanical structure design of site based on Unitree-8010](doc/machinery/Motor/HT6010/README.md) | [基于Unitree-8010的底盘机械结构设计](doc/machinery/Motor/HT6010/README_zh_CN.md)
 
@@ -27,8 +27,11 @@ please see those doc:
 
 ## Dependent
 - OpenCV 3
+- ubunut 16.04
+- Tensorflow
 - 
 ##  Development Plan 
 
 ## Sponsor  
-- Unitree
+- Unitree.
+- My Self.
