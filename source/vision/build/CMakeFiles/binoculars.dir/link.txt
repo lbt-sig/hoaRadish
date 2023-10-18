@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbinoculars.a CMakeFiles/binoculars.dir/src/armor.cpp.o CMakeFiles/binoculars.dir/src/util/rbtree.cpp.o
-/usr/bin/ranlib libbinoculars.a
